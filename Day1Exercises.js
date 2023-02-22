@@ -54,7 +54,7 @@ let country= "Nigeria";
 let age= 25;
 
 //No.9
- let firstName="Chinaza", lastName="Ezeh", maritalStatus= "single", country= "Nigeria", age=25;
+ let FirstName="Chinaza", LastName="Ezeh", MaritalStatus= "single", Country= "Nigeria", Age=25;
 
  // No.10 
  let myAge= 26;
