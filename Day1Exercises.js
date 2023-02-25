@@ -18,15 +18,15 @@ DAY ONE EXERCISES
 /* No. 3. a multiline comment which says comments can make code readable, easy to reuse and informative */
 
 // No.4
-let theName = "Glory";
+let person = 'Glory';
 let emptyValue = null;
 let active= true;
 let notActive= false;
 let priceBread= 100;
 let payRoll 
-console.log (theName)
-console.log (payRoll)
 
+console.log (person)
+console.log(payRoll)
 //No.5
 console.log(typeof priceBread)
 console.log(typeof present)

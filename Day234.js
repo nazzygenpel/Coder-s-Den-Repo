@@ -93,7 +93,7 @@ console.log(string.indexOf('Script'))     //15
 
 // 15. concat(): it takes many substrings and joins them.
 let learn= 'Serious'
-console.log (learn.concat('30 Days of javaScript'))
+console.log(learn.concat('30 Days of javaScript'))
 
 // 16. startsWith: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
 let life= 'Let love lead'
@@ -106,6 +106,65 @@ console.log(life.endsWith('lead'))
 console.log(life.endsWith('love lead'))
 
 //18. search: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or a regular expression pattern. 
+
+ 
+/*Day 3
+Truthy values are positive and negative number except zero (0), the boolean truth and all strings except empty string('').
+Falsy values are 0, empty strings(''), NaN, the boolean false, undefined variables and Null
+*/
+
+// Assignment Operators (=, +=, -=, *=,/=, %=, **=) an equal sign assigns and assignment to a value...
+// Arithmetic Operators (+,-,*,%,**,/)
+// Comparism Operators (>,<, !=,==,===, >=,<=) they compare value, mostly booleans...
+console.log(3 == 2)             // false, because 3 is not equal to 2
+console.log(3 != 2)             // true, because 3 is not equal to 2
+console.log(3 == '3')           // true, compare only value
+console.log(3 === '3')          // false, compare both value and data type
+console.log(3 !== '3')          // true, compare both value and data type
+console.log(3 != 3)             // false, compare only value
+// Notice the difference == and ===
+
+// logical operators (&&, ||, !)
+
+const check = 4 > 3 && 10 < 5         // true && false -> false
+console.log(check)
+
+const checks = 4 > 3 || 10 < 5         // true  || false -> true
+console.log(checks)
+
+// increment operators ; ++ and decreament operators--
+//Ternary Operators:Ternary operator allows to write a condition. Another way to write conditionals is using ternary operators.
+
+let isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+isRaining = false
+
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+
+let isReading = true
+  isReading
+  ? console.log ('You need to read for exam')
+  : console.log ('No need to read for exams')
+
+ isReading = false
+ isReading
+ ?console.log('You need to read for exam')
+ :console.log('No need to read for exams')
+ 
+ //Date Object
+ const now= new Date()
+console.log(now)
+console.log(now.getFullYear())
+console.log(now.getMonth())
+console.log(now.getDate()) 
+console.log(now.getDay())
+console.log(now.getHours())
+console.log(now.getMinutes())
+console.log(now.getSeconds())
 
 
 
