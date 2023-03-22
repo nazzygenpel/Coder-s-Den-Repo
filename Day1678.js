@@ -21,3 +21,18 @@ console.log(typeof 5) // number
 console.log(typeof true) // boolean
 console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
+
+//DAY 6 
+//LOOPS
+Repetition
+
+
+
+/*types of function
+Expression function and arrow function 
+anonymous function means that the function does not have a name, arrow functions are all anonymous functions..
+A block is a pair of curly braces
+*reassignment 
+
+*/
+
