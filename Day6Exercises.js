@@ -23,7 +23,7 @@ do {
 //Iterate 10 to 0 using for loop, do the same using while and do while loop
 
 
-for(let n = 10;  >= 0; i--){
+for(let n = 10;  n>= 0; n--){
   console.log(i)
 }
 
